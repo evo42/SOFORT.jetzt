@@ -20,7 +20,7 @@ An open standards based payment network.
  * Apple iOS Scan & Pay [@LinkedIn](https://linkedin.com/feed/update/urn:li:activity:6633873557892005888)
 
  * 🌐 [Ärzte ohne Grenzen @ Github](https://github.com/SEPAdigital/SOFORT.jetzt/tree/master/spenden/%C3%A4rzte-ohne-grenzen) 
- * 👩🏾‍⚕️ [JSON Linked Data Source Code](https://github.com/SEPAdigital/SOFORT.jetzt/blob/master/spenden/%C3%A4rzte-ohne-grenzen/index.html#L4) 
+ * 👩🏾‍⚕️ [JSON Linked Data Source Code](https://github.com/SEPAdigital/SOFORT.jetzt/blob/master/spenden/%C3%A4rzte-ohne-grenzen/index.html#L37) 
 
 ## HTML
 
