@@ -1,3 +1,1 @@
-# Spenden
-
-SEPA Instant Donate
+...
