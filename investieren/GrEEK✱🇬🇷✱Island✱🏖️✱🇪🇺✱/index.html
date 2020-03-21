@@ -1,0 +1,173 @@
+<!DOCTYPE HTML><html>
+<head>
+    <title>📱 Instant Donate ⚡ S€PA.digital  🇪🇺  #SEPAdigital #InstantPayment</title>
+    <!--
+		✱ Cashless
+		✱ Cardless
+		✱ Contactless
+
+		📱 SEPA Instant #CloudPOS  ⚡  Priceless  🍸
+
+		#InstantPayments with #ZeroFees
+		#SEPAdigital #CloudPOS #SCTInst
+
+
+		🔥  Enable S€PA.digital/pay N O W  💳
+
+
+		✱ ✱ ✱  Accept SEPA credit transfers to any EUR IBAN account with #SEPAdigital instantly in real time!
+		  — —  No on-boarding required  —  KYC / AML was already done by your account provider. Just Join us.
+
+		✱ ✱ ✱  Account 2 Account  —  payment by payment  —  JOIN  the r€VOlution of #InstantPayments  N O W ❗
+		  — —  No card companies required  —  SEPA.digital settlement assured:  24/7  in less than  3 SECONDS.
+
+		✱ ✱ ✱  Add the following SEPA.digital Payment Request Manifest to your HTML page or mobile app. DONE ✔️
+		  — —  No setup required  —  NOW you can accept SEPA credit transfers via EPC QR Codes with #ZeroFees                                                                       -->
+
+
+    <!-- 🔻🔻 Add the following HTML code to the website / app where you want to receive #SEPA #InstantPayments                                                                     -->
+    <link rel="manifest" href="https://SEPA.digital/pay/instant.json?031924">
+
+
+    <!-- 🔻🔻 Accept payments instantly for the following organisation directly to their SEPA €UR bank account.
+        ✱ ✱ ✱  24/7 < 3 seconds real-time settlement. Up to € 150.000,- per transaction | 1-bank day: no limit.
+        ✱ ✱ ✱  PDF: #EUcommerce banks & PSPs @ European Payments Council http://bit.ly/SCTInst-participants-pdf
+        ✱ ✱ ✱  SaaS: PAN-EUropean decentralised Account2Account instant settlement Public Leder payment network.                                                                    -->
+    <script id="SEPAdigital" data-type="application/ld+json">
+        window.SEPAdigital.to = {
+            "@context": "https://schema.org",
+            "@type": "BankAccount",
+            "iban": "NL20BUNQ2035276985",
+            "bic": "BUNQNL2AXXX",
+            "recipient": {
+                "@type": "Organization",
+                "legalName": "R. Kapusta",
+                "alternateName": "GrEEK Island",
+                "url": "https://K42.ventures",
+                "email": "rene@K42.ventures",
+                "telephone": "+43 27 4244 303",
+                "seeAlso": "https://SEPA.digital",
+                "ownershipFundingInfo": "https://twitter.com/rene_kapusta",
+            },
+        }
+    </script>
+
+    <!-- 🍹 At the bottom of the page, add the following two lines with W3C PR code to initialize S€PA.digital 
+        
+
+		<script src="https://SEPA.digital/pay/w3c-pr-api.js"></script>
+		<script src="https://SEPA.digital/pay/w3c-pr-api.donate.js"></script>
+
+
+        🌐 W3C Payment Request API specification: https://w3.org/TR/payment-request
+
+		✱ ✱ ✱     ¯\_(ツ)_/¯    ✱ ✱ ✱    [(€)]    ✱ ✱ ✱    (^_^)  ✱✱  [o_o]  ✱✱✱  (".")  ✱✱  ($.$)    ✱ ✱ ✱
+
+        🤖 ```
+                curl https://api.sepa.digital/payment-request 
+                    -sd '{
+                            "iban": "AT43 2011 1289 2684 7600",
+                            "name": "Ärzte ohne Grenzen",
+                            "amount": 42,
+                            "reason": "[(€)] Spende <3 www.aerzte-ohne-grenzen.at/spenderservice",
+                        }'
+        ```
+
+        ✱ ✱ ✱  API documentation @ Github: https://github.com/SEPAdigital/API-docs
+        ✱ ✱ ✱  Adv configuration @ https://domain.tld/.well-known/sepa.digital.json
+
+
+        🐙 € `curl https://api.sepa.digital/inbox -d '{"reply": "geek@boring.bank.com", "msg": "Aloha 🐡"}'`                                                                     -->
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/paper-css@0.4.1/paper.min.css"> <!-- 🖨️ https://github.com/cognitom/paper-css#basic-usage -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"> <!-- https://bulma.io/documentation -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css"> <!-- 🖼️ https://fontawesome.com/icons -->
+
+    <style type="text/css">
+        @media print {
+            .hide { display:none; }
+        }
+        .hide { display:none; }
+    </style>
+
+    <link rel="shortcut icon" href="./favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta charset="utf-8" />
+</head>
+
+<body class="A4">
+    <div class="sheet padding-25mm">
+        <section id="intro">
+
+            <a href="https://SEPA.digital" target="_blank">
+                <figure class="image is-1by1">
+                    <img class="is-rounded" src="./jeroen-den-otter-HlxuCe2pkJU-unsplash.jpg" title="Santorini, Oia, Greece 📸 Jeroen den Otter @ Unsplash"/>
+                </figure>
+            </a>
+
+            <h1 class="title is-3 is-vcentered" style="margin: 42px auto;">« Investieren ohne Grenzen 💶 »</h1>
+
+            <section id="SEPAdigitalPRform">
+                <input id="amount" type="hidden" value="42" />
+                
+                <!--  ✱ ✱ ✱  S€PA.digital donate button  ✱ ✱ ✱  -->
+                <button class="w3c-pr-btn-checkout button is-large is-success">
+                    <span class="icon is-small">
+                        <i class="fas fa-check"></i>
+                    </span>
+                    <span>Jetzt "investieren"</span>
+                </button>
+                
+                <div id="w3c-pr-msg" class="hide"></div>
+                <div id="w3c-pr-btn-install" class="hide">⚡ S€PA.digital</div>
+                <!--  ✱ ✱ ✱  ✔️ S€PA.digital button added  ✱ ✱ ✱  -->
+            </section>
+            
+            <section id="SEPAdigitalPRcode" style="display: none; margin-top: 30px;">
+                <img width="250px" src="" />
+                <h2>TX name</h2>
+                <h3>TX amount</h3>
+                <h4>TX URL</h4>
+            </section>
+
+            <footer style="position: relative; left: 42px; bottom: -84px;">
+                <small>
+                    ©️ S€PA.digital ― Institut für Zahlungsverkehr 📞 <a href="#">+43 27 4244 303</a> &nbsp;&nbsp; 📧 &nbsp; <a href="#">inbox@SEPA.digital</a>
+                </small>
+            </footer>
+        </section>
+    </div>
+
+    <!--  ✱ ✱ ✱  Add the S€PA.digital Payment Request API  ✱ ✱ ✱  -->
+    <script src="https://cdn.jsdelivr.net/npm/cash-dom@6.0.2/dist/cash.min.js"></script>
+
+    <script src="/w3c-pr-api.full.js?031924"></script>
+    <script src="/js/donate.js?031924"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/iban@0.0.14/iban.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsonld@3.0.1/dist/jsonld.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/localforage@1.7.3/dist/localforage.min.js"></script>
+    <!--  ✱ ✱ ✱  ✔️ S€PA.digital Pay is now ready #ZeroFees ✱ ✱ ✱  -->
+
+</body>
+
+</html>
+
+<!-- ✱ ✱ ✱ 
+
+    👩‍💻 `python3 -m http.server 8042 && open http://localhost:8042`
+
+
+    ╭━━━┳━━━┳━━━┳━━━╮╱╱╭╮╱╱╱╱╭╮╱╱╱╭╮
+    ┃╭━╮┃╭━━┫╭━╮┃╭━╮┃╱╱┃┃╱╱╱╭╯╰╮╱╱┃┃
+    ┃╰━━┫╰━━┫╰━╯┃┃╱┃┃╭━╯┣┳━━╋╮╭╋━━┫┃
+    ╰━━╮┃╭━━┫╭━━┫╰━╯┃┃╭╮┣┫╭╮┣┫┃┃╭╮┃┃
+    ┃╰━╯┃╰━━┫┃╱╱┃╭━╮┣┫╰╯┃┃╰╯┃┃╰┫╭╮┃╰╮
+    ╰━━━┻━━━┻╯╱╱╰╯╱╰┻┻━━┻┻━╮┣┻━┻╯╰┻━╯
+    ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭━╯┃
+    ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰━━╯
+
+✱ ✱ ✱ -->
