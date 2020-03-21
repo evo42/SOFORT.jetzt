@@ -2,11 +2,11 @@
 
 An open standards based payment network.
 
-  > 📖 Open Source 💥 Experiment with ✱R.E.A.L MONEY✱ 💶 
+  > 📖 Open Source 💥 Experiment with ✱R.E.A.L. MONEY✱ 💶 
   
   > 🔥 S€PA.digital — Institut für Zahlungsverkehr
   
-  > ☎️ [+4327 4244 303](tel:+43274244303) ✱ 📮 [inbox@SEPA.digital](mailto:inbox+github@SEPA.digital?cc=rene.kapusta@gmail.com&subject=%F0%9F%93%A8%20Aloha%20via%20Github&body=%E2%9A%A1%20%23SEPAdigital%20%E2%80%94%20SOFORT.jetzt%20%E2%80%94%20%23hackSEPA%0D%0A%0D%0A%5B_%5D%20Beschwerde%20%E2%9C%B1%20%5B_%5D%20Feedback%20%E2%9C%B1%20%5B_%5D%20Frage%0D%0A%0D%0A-%20-%20-%20%E2%9C%82%EF%B8%8F%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%0D%0A%0D%0A)
+  > ☎️ [+43 27 4244 303](tel:+43274244303) ✱ 📮 [inbox@SEPA.digital](mailto:inbox+github@SEPA.digital?cc=rene.kapusta@gmail.com&subject=%F0%9F%93%A8%20Aloha%20via%20Github&body=%E2%9A%A1%20%23SEPAdigital%20%E2%80%94%20SOFORT.jetzt%20%E2%80%94%20%23hackSEPA%0D%0A%0D%0A%5B_%5D%20Beschwerde%20%E2%9C%B1%20%5B_%5D%20Feedback%20%E2%9C%B1%20%5B_%5D%20Frage%0D%0A%0D%0A-%20-%20-%20%E2%9C%82%EF%B8%8F%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%0D%0A%0D%0A)
   
   > 📯 [S€PA.digital](https://SEPA.digital) c/o K42 Ventures OÜ, Europaplatz 42, 3100 Sankt Pölten 🇪🇺
   
