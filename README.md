@@ -10,7 +10,7 @@ An open standards based payment network.
   
   > 📯 [S€PA.digital](https://SEPA.digital) c/o K42 Ventures OÜ, Europaplatz 42, 3100 Sankt Pölten 🇪🇺
   
-  > 👩‍💻 Fork it, Fix it, Push it ✱ [#hackSEPA](https://twitter.com/search?q=hackSEPA&f=live) ✱ [#SCTInst](https://twitter.com/search?q=SCTInst&f=live) ✱ [2142+ supported PAN-EU-banks 🇪🇺](https://europeanpaymentscouncil.eu/sites/default/files/participants_export/sct_inst/sct_inst.pdf)
+  > 👩‍💻 Fork it, Fix it, Push it ✱ [#hackSEPA](https://twitter.com/search?q=hackSEPA&f=live) ✱ [#SCTInst](https://twitter.com/search?q=SCTInst&f=live) ✱ [2142+ supported PAN-EU-banks 🇪🇺](https://www.europeanpaymentscouncil.eu/sites/default/files/participants_export/sct_inst/sct_inst.pdf)
 
 # [SOFORT.jetzt/spenden](https://SOFORT.jetzt/spenden) 
 
