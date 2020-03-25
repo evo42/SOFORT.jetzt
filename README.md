@@ -8,11 +8,11 @@ An open standards based payment network.
   
   > ☎️ [+43 27 4244 303](tel:+43274244303) 📮 [inbox@SEPA.digital](mailto:inbox+github@SEPA.digital?cc=rene.kapusta@gmail.com&subject=%F0%9F%93%A8%20Aloha%20via%20Github&body=%E2%9A%A1%20%23SEPAdigital%20%E2%80%94%20SOFORT.jetzt%20%E2%80%94%20%23hackSEPA%0D%0A%0D%0A%5B_%5D%20Beschwerde%20%E2%9C%B1%20%5B_%5D%20Feedback%20%E2%9C%B1%20%5B_%5D%20Frage%0D%0A%0D%0A-%20-%20-%20%E2%9C%82%EF%B8%8F%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%0D%0A%0D%0A%0D%0A%0D%0A%0D%0A-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%20-%0D%0A%0D%0A)
   
-  > 📯 [S€PA.digital](https://SEPA.digital) c/o K42 Ventures OÜ, Europaplatz 42, 3100 Sankt Pölten 🇪🇺
+  > 📯 [S€PA.digital](https://SEPA.digital) c/o K42 Ventures OÜ, Europaplatz 42, 3100 Sankt Pölten 🇦🇹 🇪🇺 🇪🇪
   
-  > 👩‍💻 Fork it, Fix it, Push it ✱ [#hackSEPA](https://twitter.com/search?q=hackSEPA&f=live) ✱ [#SCTInst](https://twitter.com/search?q=SCTInst&f=live) ✱ [2142+ supported PAN-EU-banks 🇪🇺](https://www.europeanpaymentscouncil.eu/sites/default/files/participants_export/sct_inst/sct_inst.pdf)
+  > 👩‍💻 Fork it, Fix it, Push it ✱ [#hackSEPA](https://twitter.com/search?q=hackSEPA&f=live) ✱ [#SCTInst](https://twitter.com/search?q=SCTInst&f=live) ✱ [2142+ supported PAN-EU-banks](https://www.europeanpaymentscouncil.eu/sites/default/files/participants_export/sct_inst/sct_inst.pdf) 🇪🇺
 
-# [SOFORT.jetzt/spenden](https://SOFORT.jetzt/spenden) 
+# [SOFORT.jetzt/spenden](https://SOFORT.jetzt/spenden)
 
  * EU QR Code Format: [@European Payments Council (EPC)](https://www.europeanpaymentscouncil.eu/document-library/guidance-documents/quick-response-code-guidelines-enable-data-capture-initiation)
  * Raiffeisen ELBA-App Scan & Transfer: [@YouTube](https://youtu.be/FU_lcNUGza8)
@@ -20,7 +20,12 @@ An open standards based payment network.
  * Apple iOS Scan & Pay [@LinkedIn](https://linkedin.com/feed/update/urn:li:activity:6633873557892005888)
 
  * 🌐 [Ärzte ohne Grenzen @ Github](https://github.com/SEPAdigital/SOFORT.jetzt/tree/master/spenden/%C3%A4rzte-ohne-grenzen) 
- * 👩🏾‍⚕️ [JSON Linked Data Source Code](https://github.com/SEPAdigital/SOFORT.jetzt/blob/master/spenden/%C3%A4rzte-ohne-grenzen/index.html#L4) 
+ * 👩🏾‍⚕️ [JSON Linked Data Source Code](https://github.com/SEPAdigital/SOFORT.jetzt/blob/master/spenden/%C3%A4rzte-ohne-grenzen/index.html#L37) 
+
+
+## [SOFORT.jetzt/investieren](https://SOFORT.jetzt/investieren) - mit 🏦 live update
+🌱 [SOFORT.jetzt/investieren/GrEEK✱🇬🇷✱Island✱🏖️✱🇪🇺✱](https://sofort.jetzt/investieren/GrEEK-Island)
+
 
 ## HTML
 
