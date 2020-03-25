@@ -177,6 +177,9 @@ class SEPAdigital {
             window.prInitTx()
         }
         window.SEPAdigitalTxId = $('#txRef').val();
+
+        return;
+        
         setTimeout(function () {
             var w3cPay = $('body').data('w3c-pr-api-not-supported') || null;
             if (w3cPay) {
