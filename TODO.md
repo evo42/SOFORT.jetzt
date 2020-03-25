@@ -31,8 +31,9 @@ This will be demonstrated with the live example @ https://SOFORT.jetzt/spenden/k
 
 ### not-to-dos
 
-- [ ] 😷 == mask hides: 🤣 @ EMVCo
+- ❌ 😷 == mask hides: 🤣 @ EMVCo ✱ https://github.com/evo42/SOFORT.jetzt/commit/80aa41797be0be92d2ee5104398ed77befd35884#commitcomment-38035450
 - [ ] 🚭  😏  😐  🌳
+- ❌ mess with politics ✱ https://imgur.com/a/lk2iWM1
 
 
 /[rene@K42.ventures](mailto:rene@K42.ventures)
