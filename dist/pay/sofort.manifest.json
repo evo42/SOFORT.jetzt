@@ -1,4 +1,4 @@
 {
-    "default_applications": ["https://SOFORT.jetzt/pay/instant.json"],
-    "supported_origins": ["https://*"]
-  }
+  "default_applications": ["https://SEPA.digital/pay/instant.json"],
+  "supported_origins": ["https://sepa.digital/", "https://sofort.jetzt/"]
+}

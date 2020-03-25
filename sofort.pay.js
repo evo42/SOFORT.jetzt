@@ -118,7 +118,7 @@ $(document).ready(function ($) {
         $('#SEPAdigitalPRcode img').attr('src', pr['_links'].qrcode);
         $('#SEPAdigitalPRcode h2').text('🏪   ' + pr['name_to']);
         $('#SEPAdigitalPRcode h1').html('💶   &nbsp;€ ' + parseFloat(pr['amount'], 10).toFixed(2).replace('.', ',') + ' <i style="margin-left: 12px" class="fas fa-circle-notch fa-spin hide-print has-text-info"></i>');
-        $('#SEPAdigitalPRcode h4').html('🧾   Buch Abo Kirchstetten');
+        $('#SEPAdigitalPRcode h4').html('🧾   A-Bu.ch Jahreskarte');
         $('#SEPAdigitalPRcode h3 small').html('💳   IBAN: ' + pr['iban_to']);
         $('#SEPAdigitalPRcode h5 small').html('🌐   Transfer-ID: <a href="https://SEPA.id/' + pr['shortId'] + '" target="_blank">SEPA.id/' + pr['shortId'] + '</a>')
       } else {
@@ -181,9 +181,14 @@ $(document).ready(function ($) {
     if (email && email.length > 1 && email.indexOf('@') > 0) {
       email = email.trim().toLowerCase()
     }
-    if (amountDisplay == '0,00') {
+
+    if (amountDisplay == '0,00' || amountDisplay == '0') {
       amountDisplay = ''
-      $('.w3c-pr-btn-checkout').addAttr('disabled');
+      $('.w3c-pr-btn-checkout').attr('disabled', true);
+    } else if (!inputName || inputName == '' || inputName.length < 3) {
+      $('.w3c-pr-btn-checkout').attr('disabled', true);
+    } else if ((!phone || phone == '' || phone.length < 3) && (!email || email == '' || email.length < 3)) {
+      $('.w3c-pr-btn-checkout').attr('disabled', true);
     } else {
       $('.w3c-pr-btn-checkout').removeAttr('disabled');
     }
@@ -192,15 +197,18 @@ $(document).ready(function ($) {
       let obj = postalcodes.find(obj => obj.plz == parseInt(postalCode.trim(), 10));
       addressLocality = obj.ort
     }
+
     $('#address [property="name"]').html(displayName);
     $('#address [property="streetAddress"]').html(streetAddress);
     $('#address [property="postalCode"]').html(postalCode);
     $('#address [property="addressLocality"]').html(addressLocality);
     $('#phone').val(phone);
     $('#amount').val(amountDisplay);
+
     if (aboType && aboType.length > 2) {
       $('#aboType strong').text(aboType)
     }
+
     window.SEPAdigital.from = {
       "amount": parseFloat(amountDisplay.replace(',', '.'), 10).toFixed(2),
       "amountDisplay": amountDisplay,

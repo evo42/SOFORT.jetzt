@@ -180,7 +180,7 @@ class SEPAdigital {
         setTimeout(function () {
             var w3cPay = $('body').data('w3c-pr-api-not-supported') || null;
             if (w3cPay) {
-                var win = window.open('https://SOFORT.jetzt/pay/#' + window.SEPAdigitalTxId, '_blank');
+                var win = window.open('https://SEPA.digital/pay/#' + window.SEPAdigitalTxId, '_blank');
                 if (win) {
                     win.focus()
                 } else {

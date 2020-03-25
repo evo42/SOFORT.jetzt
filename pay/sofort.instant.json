@@ -6,19 +6,19 @@
   "description": "EU Open Banking Instant Payments #SCTInst",
   "scope": "/",
   "display": "standalone",
-  "start_url": "https://SOFORT.jetzt/pay/index.html",
+  "start_url": "/pay/index.html",
   "background_color": "#ffffff",
   "theme_color": "#003399",
   "orientation": "any",
   "related_applications": [],
   "prefer_related_applications": false,
   "icons": [{
-      "src": "https://SOFORT.jetzt/pay/sepa.digital.png",
+      "src": "https://SEPA.digital/pay/sepa.digital.png",
       "sizes": "144x144",
       "type": "image/png"
   }],
   "serviceworker": {
-      "src": "https://SOFORT.jetzt/pay/instant.js",
+      "src": "https://SEPA.digital/pay/instant.js",
       "use_cache": false
   }
 }
