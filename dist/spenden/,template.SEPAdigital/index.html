@@ -29,7 +29,7 @@
 
 
     <!-- 🔻🔻 Add the following HTML code to the website / app where you want to receive #SEPA #InstantPayments                                                                     -->
-    <link rel="manifest" href="https://SOFORT.jetzt/pay/instant.json?032501">
+    <link rel="manifest" href="https://SOFORT.jetzt/pay/sofort.instant.json?032502">
 
 
     <!-- 🔻🔻 Accept payments instantly for the following organisation directly to their SEPA €UR bank account.
@@ -207,7 +207,7 @@
                 </small>
 
                 <h2 class="title is-3 has-text-success" style="margin: 42px auto 0px auto;">
-                    🐙 BUCH Jahreskarte ✱ all-you-can 📖
+                    📗 &nbsp;A-Bu.ch Jahreskarte ✱ All-you-can 📖
                 </h2>
             </section>
 
@@ -215,7 +215,7 @@
                 <div class="field is-horizontal">
                     <div class="field-label is-normal">
                         <label class="label">
-                            💂‍♂️ Mitglied
+                            Mitglied  💂‍♂️
                         </label>
                     </div>
                     <div class="field-body">
@@ -278,7 +278,7 @@
                 <div class="field is-horizontal">
                     <div class="field-label is-normal">
                         <label class="label">
-                            🌍 Adresse
+                            Adresse  🌍
                         </label>
                     </div>
                     <div class="field-body">
@@ -315,21 +315,23 @@
 
                 <div class="field is-horizontal">
                     <div class="field-label is-normal">
-                        <label class="label">🧧 Spende</label>
+                        <label class="label">
+                            Spende  🧧
+                        </label>
                     </div>
                     <div class="field-body">
                         <div class="field is-narrow">
                             <div class="control donationTypes">
-                                <label class="radio radio-smaller">
+                                <label class="radio">
                                     <input id="OptionA" class="radioAmount" value="Option A" type="radio" name="donationType"
                                         data-amount="08.15" >
-                                        Option A € 08,15
+                                        Option A €&nbsp;08,15
                                     </label>
                                     
                                     <label class="radio">
                                         <input id="OptionB" class="radioAmount" value="Option B" type="radio" name="donationType"
                                         data-amount="42" >
-                                        Option B € 42,-
+                                        Option B €&nbsp;42,-
                                     </label>
                             </div>
                         </div>
@@ -339,7 +341,7 @@
                 <div class="field is-horizontal">
                     <div class="field-label is-normal">
                         <label class="label">
-                            🧾 Betrag
+                            Betrag  🧾
                         </label>
                     </div>
                     <div class="field-body">
@@ -403,7 +405,7 @@
                     <span class="icon is-small">
                         <i class="fas fa-check"></i>
                     </span>
-                    <span>BUCH+ 📚 Jetzt Jahreskarte kaufen</span>
+                    <span>BUCH+ 📚  Jetzt Jahreskarte kaufen  🏪 </span>
                 </button>
 
                 <div id="w3c-pr-msg" class="hide"></div>
@@ -495,10 +497,9 @@
     <script src="https://cdn.jsdelivr.net/npm/cash-dom@6.0.2/dist/cash.min.js"></script>
 
     <!-- W3C Payment Request API for {Instant} SEPA Credit Transfer via SEPA.digital -->
-    <script src="https://SOFORT.jetzt/pay/w3c-pr-api.js?032501"></script>
-    <script src="https://SOFORT.jetzt/pay/SOFORT.jetzt.js?032501"></script>
-    <script src="https://SOFORT.jetzt/pay.js?032501"></script>
-    <!-- script src="https://SOFORT.jetzt/pay/merchant.js?032501"></script -->
+    <script src="https://SOFORT.jetzt/pay/sofort.w3c-pr-api.js?032502"></script>
+    <script src="https://SOFORT.jetzt/pay/sofort.cloudpos.js?032502"></script>
+    <script src="https://SOFORT.jetzt/sofort.pay.js?032502"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/iban@0.0.14/iban.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jsonld@3.0.1/dist/jsonld.min.js"></script>

@@ -14,7 +14,7 @@ echo " 🆕 init env  ✱ ✱ ✱  ✔️"
 echo ""
 
 rm -rf ./dist && mkdir -p ./dist
-cp -r ./{DDoS,HackTheCrisis,investieren,spenden,pay,pay.js} ./dist
+cp -r ./{DDoS,HackTheCrisis,investieren,spenden,pay,sofort.pay.js} ./dist
 
 # pip3 freeze > requirements.freezed.txt
 pip3 install -r ./requirements.freezed.txt
