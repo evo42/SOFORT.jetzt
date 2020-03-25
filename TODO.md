@@ -1,4 +1,4 @@
-[![N|Solid](https://sepa.digital/pos/img/SEPAdigital-logo.png)](https://SEPA.id)
+[![N|Solid](https://SEPA.digital/pos/img/SEPAdigital-logo.png)](https://SEPA.id)
 
 
 
@@ -26,7 +26,12 @@ This will be demonstrated with the live example @ https://SOFORT.jetzt/spenden/k
 - [x] init project as OSS on Github: https://github.com/SEPAdigital/SOFORT.jetzt
 - [ ] add simple HTML page to accept donations for kobuk.at + rog.at + taz.de
 - [ ] DDoS @ oe42.at / heute.at -- Distributed Donations of Sweetness — #GrowthHack
+- [ ] Alipay - Bluecode 🔛 SEPA.digital
 
+
+### not-to-dos
+
+- [ ] 😷 == mask hides: 🤣 @ EMVCo
 
 
 /[rene@K42.ventures](mailto:rene@K42.ventures)
