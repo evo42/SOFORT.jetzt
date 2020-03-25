@@ -17,3 +17,4 @@
  *  🆗  Es geht mir gut 🕺 -- https://youtu.be/0aCQF_om3wE
  *  🆓  WKO.TV statt #NETFLIX -- E-Payment heute & in Zukunft WKö #eDay2015 -- https://wko.tv/video/4622
  *  👯‍♂️  CRO - Nie Mehr (Live @ Moya Rostock) 🕺 🥳 💃 -- https://vimeo.com/51433123
+ *  🧨. Forms from H E L L 👾 https://stuzza.at/de/qr-code-generator.html -- Playing For Change: https://vimeo.com/4533013
