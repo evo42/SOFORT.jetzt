@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  website:
+    image: rg.fr-par.scw.cloud/sofort/jetzt:latest
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+      - "9042:9042"

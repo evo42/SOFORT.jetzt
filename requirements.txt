@@ -1,0 +1,9 @@
+sanic == 19.9
+sqlalchemy
+python-stdnum
+MechanicalSoup
+PyYAML
+lxml
+psycopg2
+environs
+requests
