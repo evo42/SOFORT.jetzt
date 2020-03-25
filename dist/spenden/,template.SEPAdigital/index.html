@@ -29,7 +29,7 @@
 
 
     <!-- 🔻🔻 Add the following HTML code to the website / app where you want to receive #SEPA #InstantPayments                                                                     -->
-    <link rel="manifest" href="https://SOFORT.jetzt/pay/sofort.instant.json?032502">
+    <link rel="manifest" href="https://SOFORT.jetzt/pay/sofort.instant.json?032509">
 
 
     <!-- 🔻🔻 Accept payments instantly for the following organisation directly to their SEPA €UR bank account.
@@ -40,14 +40,14 @@
         window.SEPAdigital.to = {
             "@context": "https://schema.org",
             "@type": "BankAccount",
-            "iban": "NL11 BUNQ 2042 3673 62",
-            "bic": "BUNQ NL 2A XXX",
+            "iban": "NL11BUNQ2042367362",
+            "bic": "BUNQNL2AXXX",
             "currency": "EUR",
             "recipient": {
                 "@type": "Person",
                 "givenName": "René",
                 "familyName": "Kapusta",
-                "alternateName": "#hackSEPA #EUcommerce",
+                "alternateName": "SEPA Instant CloudPOS",
                 "url": "https://SEPA.id/#rene.kapusta",
                 "email": "rene@K42.Ventures",
                 "telephone": "+43 2742 44303",
@@ -117,7 +117,7 @@
         🤖 ```
                 curl https://api.SEPA.digital/payment-request 
                     -sd '{
-                            "iban": "NL11 BUNQ 2042 3673 62",
+                            "iban": "NL11BUNQ2042367362",
                             "name": "#hackSEPA x #hackthecrisisAT",
                             "amount": 42.42,
                             "reason": "[(€)] DDoS -- Decentraliced Donations of Sweetness -- <3 ww.SOFORT.jetzt",
@@ -324,8 +324,8 @@
                             <div class="control donationTypes">
                                 <label class="radio">
                                     <input id="OptionA" class="radioAmount" value="Option A" type="radio" name="donationType"
-                                        data-amount="08.15" >
-                                        Option A €&nbsp;08,15
+                                        data-amount="12" >
+                                        Option A €&nbsp;12,-
                                     </label>
                                     
                                     <label class="radio">
@@ -401,7 +401,7 @@
 
             <section id="SEPAdigitalPRform" style="display: inline-block; margin-top: 30px;">
                 <!--  ✱ ✱ ✱  S€PA.digital pay button  ✱ ✱ ✱  -->
-                <button class="w3c-pr-btn-checkout button is-medium is-success">
+                <button class="w3c-pr-btn-checkout button is-medium is-success" disabled>
                     <span class="icon is-small">
                         <i class="fas fa-check"></i>
                     </span>
@@ -472,7 +472,7 @@
             </section>
 
             <section id="SEPAdigitalPRsuccess" style="display: none;">
-                <div class="container bgGif" style="top: -30px; margin-top: 42px; min-height: 360px; min-width: 480px;">
+                <div class="container bgGif" style="top: 30px; margin-top: 42px; min-height: 505px; min-width: 404px;">
                     <i class="far fa-check-circle _is-size-1 has-text-success"
                         style="font-size: 142px; margin: 100px auto"></i>
                 </div>
@@ -486,7 +486,7 @@
             ©️  <a href="https://SEPA.digital" target="_blank">S€PA.digital ― Institut für Zahlungsverkehr</a><br />
             📍  Europaplatz 42, 3100 Sankt Pölten, Austria, Europe <br />
             📞  <a href="tel:+43274244303">+43 2742 44 303</a> &nbsp;&nbsp; 
-            📧 &nbsp; <a href="mailto:inbox@SEPAd.digital?subject=SOFORT.jetzt/pay">inbox@SEPA.digital</a>
+            📧 &nbsp; <a href="mailto:inbox@SEPA.digital?subject=SOFORT.jetzt/pay">inbox@SEPA.digital</a>
         </small>
         </div>
     </footer>
@@ -497,9 +497,9 @@
     <script src="https://cdn.jsdelivr.net/npm/cash-dom@6.0.2/dist/cash.min.js"></script>
 
     <!-- W3C Payment Request API for {Instant} SEPA Credit Transfer via SEPA.digital -->
-    <script src="https://SOFORT.jetzt/pay/sofort.w3c-pr-api.js?032502"></script>
-    <script src="https://SOFORT.jetzt/pay/sofort.cloudpos.js?032502"></script>
-    <script src="https://SOFORT.jetzt/sofort.pay.js?032502"></script>
+    <script src="https://SOFORT.jetzt/pay/sofort.w3c-pr-api.js?032509"></script>
+    <script src="https://SOFORT.jetzt/pay/sofort.cloudpos.js?032509"></script>
+    <script src="https://SOFORT.jetzt/sofort.pay.js?032509"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/iban@0.0.14/iban.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jsonld@3.0.1/dist/jsonld.min.js"></script>
@@ -530,6 +530,17 @@ console.log(`%c ________________________________________
 
 
 
+                                                                                                                                                   
+    _  _   _    _            _     _____ ______ _____        
+  _| || |_| |  | |          | |   / ____|  ____|  __ \ /\    
+ |_  __  _| |__| | __ _  ___| | _| (___ | |__  | |__) /  \   
+  _| || |_|  __  |/ _` |/ __| |/ /\___ \|  __| |  ___/ /\ \  
+ |_  __  _| |  | | (_| | (__|   < ____) | |____| |  / ____ \ 
+   |_||_| |_|  |_|\__,_|\___|_|\_\_____/|______|_| /_/    \_\
+
+
+
+
    /$$ /$$   /$$   /$$                     /$$    /$$$$$$$$ /$$                  /$$$$$$            /$$           /$$            /$$$$$$  /$$$$$$$$
   / $$/ $$  | $$  | $$                    | $$   |__  $$__/| $$                 /$$__  $$          |__/          |__/           /$$__  $$|__  $$__/
  /$$$$$$$$$$| $$  | $$  /$$$$$$   /$$$$$$$| $$   /$$| $$   | $$$$$$$   /$$$$$$ | $$  \__/  /$$$$$$  /$$  /$$$$$$$ /$$  /$$$$$$$| $$  \ $$   | $$   
@@ -540,14 +551,6 @@ console.log(`%c ________________________________________
   |__/|__/  |__/  |__/ \_______/ \_______/|__/  \__/|__/   |__/  |__/ \_______/ \______/ |__/      |__/|_______/ |__/|_______/ |__/  |__/   |__/   
                                                                                                                                                    
                                                                                                                                                    
-                                                                                                                                                   
-    _  _   _    _            _     _____ ______ _____        
-  _| || |_| |  | |          | |   / ____|  ____|  __ \ /\    
- |_  __  _| |__| | __ _  ___| | _| (___ | |__  | |__) /  \   
-  _| || |_|  __  |/ _` |/ __| |/ /\___ \|  __| |  ___/ /\ \  
- |_  __  _| |  | | (_| | (__|   < ____) | |____| |  / ____ \ 
-   |_||_| |_|  |_|\__,_|\___|_|\_\_____/|______|_| /_/    \_\
-   
 
   — € curl https://api.SEPA.digital/inbox -d '{"adr": "you+dev@boring.bank.com", "msg": "emv su*ks ;)"}' — 
   

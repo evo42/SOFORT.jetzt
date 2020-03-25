@@ -1,15 +1,15 @@
 {
     "@context": "https://schema.org",
     "@type": "BankAccount",
-    "iban": "NL11 BUNQ 2042 3673 62",
-    "bic": "BUNQ NL 2A XXX",
+    "iban": "NL11BUNQ2042367362",
+    "bic": "BUNQNL2AXXX",
     "currency": "EUR",
     "recipient": {
         "@type": "Person",
         "givenName": "René",
         "familyName": "Kapusta",
         "birthPlace": "Scheibbs",
-        "alternateName": "#hackSEPA #EUcommerce",
+        "alternateName": "SEPA Instant CloudPOS",
         "url": "https://SEPA.digital",
         "email": "rene@K42.ventures",
         "telephone": "+43 2742 44303",

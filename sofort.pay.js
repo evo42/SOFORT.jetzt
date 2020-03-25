@@ -39,13 +39,13 @@ $(document).ready(function ($) {
   xhr.onload = function () {
     var d = xhr.response,
       s = xhr.status;
-    l('response postalcode.at', d);
-    if (d.message == "OK") {
+    console.log('response postalcode.at', d);
+    if (d && d.message == "OK") {
       postalcodes = d.data
     }
   };
   xhr.onerror = function () {
-    l('ERROR get postalcode.at', xhr.error)
+    console.log('ERROR get postalcode.at', xhr.error)
   };
 
   function startAboInitRequest() {
@@ -79,7 +79,7 @@ $(document).ready(function ($) {
       userEmail: email,
       sender: window.SEPAdigital.from,
     };
-    l('send awaiting tx', txAwaiting);
+    console.log('send awaiting tx', txAwaiting);
     localforage.setItem('txAwaiting', JSON.stringify(txAwaiting));
     if (window.txCheckInt) {
       clearInterval(window.txCheckInt)
@@ -89,10 +89,10 @@ $(document).ready(function ($) {
     xhr.send(JSON.stringify(txAwaiting));
     xhr.responseType = 'json';
     xhr.onload = function () {
-      l('--- response awaiting tx', xhr.response || 'ERROR no response data');
+      console.log('--- response awaiting tx', xhr.response || 'ERROR no response data');
       var pr = xhr.response;
       var that = this;
-      l(' *** new tx data', pr['_links']);
+      console.log(' *** new tx data', pr['_links']);
       window.SEPAdigitalTxId = pr.uuid;
       if (pr && pr['_links'] && pr['_links'].payment) {
         this.tx = this.txSent = this.txAwaiting = pr;
@@ -109,7 +109,7 @@ $(document).ready(function ($) {
         $('#shortUrl').val(pr['_links'].shortUrl);
         $('#phonePass').val(window.SEPAdigital.from.phone);
         clipboard.on('success', function (e) {
-          l('-- added shortUrl to the clipboard', pr['uuid'], e)
+          console.log('-- added shortUrl to the clipboard', pr['uuid'], e)
         });
         $('#SEPAdigitalPRform').hide();
         $('#SEPAdigitalPRshop').hide();
@@ -122,11 +122,11 @@ $(document).ready(function ($) {
         $('#SEPAdigitalPRcode h3 small').html('💳   IBAN: ' + pr['iban_to']);
         $('#SEPAdigitalPRcode h5 small').html('🌐   Transfer-ID: <a href="https://SEPA.id/' + pr['shortId'] + '" target="_blank">SEPA.id/' + pr['shortId'] + '</a>')
       } else {
-        l('**** ERROR on create payment request ***')
+        console.log('**** ERROR on create payment request ***')
       }
     };
     xhr.onerror = function () {
-      l('ERROR init EPC QR', error);
+      console.log('ERROR init EPC QR', error);
     }
   }
   $('input, select').on('change', function (e) {
@@ -139,7 +139,8 @@ $(document).ready(function ($) {
       postalCode = ($('#postalCode').val() && $('#postalCode').val().trim()) || '',
       streetAddress = ($('#streetAddress').val() && $('#streetAddress').val().trim()) || '',
       addressLocality = ($('#addressLocality').val() && $('#addressLocality').val().trim()) || '',
-      amountDisplay = 0,
+      postalcodes,
+      amountDisplay = '0',
       displayName = '';
     if (!eId || eId.length < 1) {
       return false
@@ -182,8 +183,12 @@ $(document).ready(function ($) {
     }
     if (amountDisplay == '0,00') {
       amountDisplay = ''
+      $('.w3c-pr-btn-checkout').addAttr('disabled');
+    } else {
+      $('.w3c-pr-btn-checkout').removeAttr('disabled');
     }
-    if (postalcodes.length > 3 && postalCode.length > 3) {
+
+    if (postalcodes && postalcodes.length > 3 && postalCode.length > 3) {
       let obj = postalcodes.find(obj => obj.plz == parseInt(postalCode.trim(), 10));
       addressLocality = obj.ort
     }
@@ -253,8 +258,8 @@ $(document).ready(function ($) {
       var pr = xhr.response,
         d = pr,
         s = xhr.status;
-      l('response awaiting tx', pr);
-      l('- tx check', txCheckCount, s, d);
+      console.log('response awaiting tx', pr);
+      console.log('- tx check', txCheckCount, s, d);
       txCheckCount += 1;
       if (d.status == 'payment_settled' || d.status == 'payment_signed') {
         console.log('-- tx success');
@@ -271,7 +276,7 @@ $(document).ready(function ($) {
       } else if (d.status == 'created') {} else {}
     };
     xhr.onerror = function () {
-      l('ERROR get TX status', xhr.error);
+      console.log('ERROR get TX status', xhr.error);
     };
   }
   $('.btn-tx').on('focus', function () {

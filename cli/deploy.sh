@@ -30,14 +30,14 @@ echo ""
 echo " 🚢 build docker container ..."
 echo ""
 
-docker build -t sofort/jetzt:latest .
-docker tag sofort/jetzt:latest rg.fr-par.scw.cloud/sofort/jetzt:latest
-docker push rg.fr-par.scw.cloud/sofort/jetzt:latest
-
 rsync -a --progress ./dist $rsyncDest/public
 rsync -a --progress ./deploy/nginx.conf $rsyncDest
 rsync -a --progress ./docker-compose.yml $rsyncDest
 rsync -a --progress ./dist/* root@ssh.SEPA.digital:/home/ubuntu/public/SEPA.digital/ #tmp
+
+docker build -t sofort/jetzt:latest .
+docker tag sofort/jetzt:latest rg.fr-par.scw.cloud/sofort/jetzt:latest
+docker push rg.fr-par.scw.cloud/sofort/jetzt:latest
 
 ssh root@ssh.SEPA.digital "cd $serverPath && docker login && docker pull rg.fr-par.scw.cloud/sofort/jetzt:latest && docker-compose down && docker-compose up -d"
 
