@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>📱 Instant Donate 🇪🇺 #SEPAdigital #SCTInst</title>
+    <title>📱 kobuk.at ⚡ Instant Donation 🇪🇺 #SEPAdigital #SCTInst</title>
     <!--
 		✱ Cashless
 		✱ Cardless
@@ -39,20 +39,20 @@
         window.SEPAdigital.to = {
             "@context": "https://schema.org",
             "@type": "BankAccount",
-            "iban": "NL53BUNQ2042650137",
+            "iban": "NL11BUNQ2042367362",
             "bic": "BUNQNL2AXXX",
             "currency": "EUR",
             "recipient": {
                 "@type": "Person",
                 "givenName": "René",
                 "familyName": "Kapusta",
-                "alternateName": "KOBUK Spende",
-                "url": "https://SEPA.id/#spende-kobuk.at",
-                "email": "rene+kobuk@K42.Ventures",
+                "alternateName": "SEPA Instant CloudPOS",
+                "url": "https://SEPA.id/#rene.kapusta",
+                "email": "rene@K42.Ventures",
                 "telephone": "+43 2742 44303",
-                "mainEntityOfPage": "https://kobuk.at",
-                "image": "https://www.kobuk.at/wp-content/uploads/2010/02/kobuk-logo-weiss.png",
-                "itentifier": "https://www.kobuk.at/legal/"
+                "mainEntityOfPage": "https://twitter.com/rene_kapusta",
+                "image": "https://pbs.twimg.com/profile_images/854919519/rene_400x400.jpg",
+                "itentifier": "https://citizen.bmi.gv.at/at.gv.bmi.fnsweb-p/zmr/checked/Meldeauskunft#Kapusta+Rene+3062"
             },
             "bankAccountType": "https://IBAN.SEPA.digital#EUR-SCTInst",
             "areaServed": "https://wikidata.org/wiki/Q1307754",
@@ -116,7 +116,7 @@
         🤖 ```
                 curl https://api.SEPA.digital/payment-request 
                     -sd '{
-                            "iban": "NL53BUNQ2042650137",
+                            "iban": "NL11BUNQ2042367362",
                             "name": "#hackSEPA x #hackthecrisisAT",
                             "amount": 42.42,
                             "reason": "[(€)] DDoS -- Decentraliced Donations of Sweetness -- <3 ww.SOFORT.jetzt",
@@ -159,7 +159,7 @@
         }
 
         .donationTypes label {
-            width: 123px;
+            width: 150px;
             font-size: small;
         }
 
@@ -183,7 +183,7 @@
         }
     </style>
 
-    <link rel="shortcut icon" href="https://www.kobuk.at/wp-content/themes/kobuk/images/favicon-32x32.png?ref=SOFORT.jetzt">
+    <link rel="shortcut icon" href="./favicon.ico">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <meta charset="utf-8" />
@@ -194,10 +194,17 @@
         <section id="intro has-text-centered container is-fluid">
 
             <section id="SEPAdigitalShop">
-                <img src="./assets/kobuk-sofort.jetzt-hero.jpeg" />
+                <h1 class="title is-3" style="margin-top: 142px">
+                    « 📖 kobuk.at »
+                </h1>
+
+                <small class="has-text-grey-light"> — <a class="has-text-grey-light"
+                        href="https://wikiquote.org/wiki/Young_Wizards#So_You_Want_to_Be_a_Wizard" __target="_blank">
+                        Diane Duane @ «Young Wizards»</a>
+                </small>
 
                 <h2 class="title is-3 has-text-success" style="margin: 42px auto 0px auto;">
-                    📰  &nbsp; 📺  &nbsp; An KOBUK! per Überweisung spenden
+                    📖 &nbsp;An Kobuk spenden
                 </h2>
             </section>
 
@@ -205,7 +212,7 @@
                 <div class="field is-horizontal">
                     <div class="field-label is-normal">
                         <label class="label">
-                            ME  💂‍♂️
+                            Mitglied  💂‍♂️
                         </label>
                     </div>
                     <div class="field-body">
@@ -268,7 +275,7 @@
                 <div class="field is-horizontal">
                     <div class="field-label is-normal">
                         <label class="label">
-                            ADR  🌍
+                            Adresse  🌍
                         </label>
                     </div>
                     <div class="field-body">
@@ -306,7 +313,7 @@
                 <div class="field is-horizontal">
                     <div class="field-label is-normal">
                         <label class="label">
-                            💶  👜  🎁  
+                            Spende  🧧
                         </label>
                     </div>
                     <div class="field-body">
@@ -323,12 +330,6 @@
                                         data-amount="42" >
                                         Option B €&nbsp;42,-
                                     </label>
-                                    
-                                    <label class="radio">
-                                        <input id="OptionC" class="radioAmount" value="Option C" type="radio" name="donationType"
-                                        data-amount="666" >
-                                        Option B €&nbsp;666,-
-                                    </label>
                             </div>
                         </div>
                     </div>
@@ -337,7 +338,7 @@
                 <div class="field is-horizontal">
                     <div class="field-label is-normal">
                         <label class="label">
-                            🧾
+                            Betrag  🧾
                         </label>
                     </div>
                     <div class="field-body">
@@ -401,7 +402,7 @@
                     <span class="icon is-small">
                         <i class="fas fa-check"></i>
                     </span>
-                    <span>KOBUK! 👓 📚  Jetzt 24/7 spenden  🏪 </span>
+                    <span>BUCH+ 📚  Jetzt Jahreskarte kaufen  🏪 </span>
                 </button>
 
                 <div id="w3c-pr-msg" class="hide"></div>

@@ -118,7 +118,7 @@ $(document).ready(function ($) {
         $('#SEPAdigitalPRcode img').attr('src', pr['_links'].qrcode);
         $('#SEPAdigitalPRcode h2').text('🏪   ' + pr['name_to']);
         $('#SEPAdigitalPRcode h1').html('💶   &nbsp;€ ' + parseFloat(pr['amount'], 10).toFixed(2).replace('.', ',') + ' <i style="margin-left: 12px" class="fas fa-circle-notch fa-spin hide-print has-text-info"></i>');
-        $('#SEPAdigitalPRcode h4').html('🧾   A-Bu.ch Jahreskarte');
+        $('#SEPAdigitalPRcode h4').html('🧾   KOBUK Spende NoFakeNews');
         $('#SEPAdigitalPRcode h3 small').html('💳   IBAN: ' + pr['iban_to']);
         $('#SEPAdigitalPRcode h5 small').html('🌐   Transfer-ID: <a href="https://SEPA.id/' + pr['shortId'] + '" target="_blank">SEPA.id/' + pr['shortId'] + '</a>')
       } else {
