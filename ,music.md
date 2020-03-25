@@ -20,3 +20,5 @@
  *  🚦  Wake me up Rhapsody Philharmonic 🎻 🥁 -- https://youtu.be/cnh5VQrvWko
  *  💾  Orchester spielt Apple®™ Ringtones -- https://youtu.be/zMH_UMOlzz0
  *  🦜  Pirates of the Caribbean (Auckland Symphony Orchestra) -- https://youtu.be/6zTc2hD2npA
+ *  🧨  Forms from H E L L 👾 https://stuzza.at/de/qr-code-generator.html -- Playing For Change: https://vimeo.com/4533013
+ *  🔥  Brenna tuat’s guat -- 💰 https://vimeo.com/180440377 -- 🧑🏿‍🤝‍🧑🏽 https://youtu.be/htOwMii8WCM
