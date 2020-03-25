@@ -1,4 +1,0 @@
-{
-    "default_applications": ["https://A-bu.ch/pay/instant.json"],
-    "supported_origins": ["https://*"]
-  }

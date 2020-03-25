@@ -17,3 +17,6 @@
  *  🆗  Es geht mir gut 🕺 -- https://youtu.be/0aCQF_om3wE
  *  🆓  WKO.TV statt #NETFLIX -- E-Payment heute & in Zukunft WKö #eDay2015 -- https://wko.tv/video/4622
  *  👯‍♂️  CRO - Nie Mehr (Live @ Moya Rostock) 🕺 🥳 💃 -- https://vimeo.com/51433123
+ *  🚦  Wake me up Rhapsody Philharmonic 🎻 🥁 -- https://youtu.be/cnh5VQrvWko
+ *  💾  Orchester spielt Apple®™ Ringtones -- https://youtu.be/zMH_UMOlzz0
+ *  🦜  Pirates of the Caribbean (Auckland Symphony Orchestra) -- https://youtu.be/6zTc2hD2npA
