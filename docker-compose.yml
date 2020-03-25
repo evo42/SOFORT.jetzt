@@ -3,6 +3,7 @@ version: '2'
 services:
   website:
     image: rg.fr-par.scw.cloud/sofort/jetzt:latest
+    name: sofort-jetzt-online
     restart: always
     ports:
       #- "80:80"

@@ -1,0 +1,24 @@
+{
+  "dir": "ltr",
+  "lang": "en-us",
+  "name": "S€PA Payment Request",
+  "short_name": "S€PA.digital",
+  "description": "EU Open Banking Instant Payments #SCTInst",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "https://SOFORT.jetzt/pay/index.html",
+  "background_color": "#ffffff",
+  "theme_color": "#003399",
+  "orientation": "any",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [{
+      "src": "https://SOFORT.jetzt/pay/sepa.digital.png",
+      "sizes": "144x144",
+      "type": "image/png"
+  }],
+  "serviceworker": {
+      "src": "https://SOFORT.jetzt/pay/instant.js",
+      "use_cache": false
+  }
+}
