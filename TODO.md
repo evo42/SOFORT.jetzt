@@ -32,6 +32,7 @@ This will be demonstrated with the live example @ https://SOFORT.jetzt/spenden/k
 ### not-to-dos
 
 - [ ] 😷 == mask hides: 🤣 @ EMVCo
+- [ ] 🚭  😏  😐  🌳
 
 
 /[rene@K42.ventures](mailto:rene@K42.ventures)
